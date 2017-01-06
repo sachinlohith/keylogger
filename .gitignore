@@ -1,3 +1,5 @@
 /Debug/
 /spoon.txt
-/.settings
+.settings/
+.project
+.classpath
