@@ -1,9 +1,7 @@
 //============================================================================
 // Name        : keylogger.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Author      : Sachin Lohith
+// Version     : 1.0
 //============================================================================
 
 #include <iostream>
