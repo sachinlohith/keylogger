@@ -1,6 +1,0 @@
-eclipse.preferences.version=1
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1708324582/PATH/delimiter=;
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1708324582/PATH/operation=replace
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1708324582/PATH/value=${MINGW_HOME}\\bin;${MSYS_HOME}\\bin;${MSYS_HOME}\\usr\\bin;C\:\\mingw\\bin;C\:/Program Files/Java/jre1.8.0_111/bin/server;C\:/Program Files/Java/jre1.8.0_111/bin;C\:/Program Files/Java/jre1.8.0_111/lib/amd64;C\:\\mingw\\bin;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Users\\test\\AppData\\Local\\Microsoft\\WindowsApps;;C\:\\Users\\test\\Downloads\\eclipse-cpp-neon-2-win32-x86_64\\eclipse
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1708324582/append=true
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1708324582/appendContributed=true
